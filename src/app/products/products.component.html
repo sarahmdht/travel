@@ -1,0 +1,27 @@
+<div class="container">
+
+    <h1>Packages</h1>
+
+    <h2>Choose the right package for your vacation:</h2>
+
+    <div class="row m-5">
+        <div class="col-4" *ngFor="let product of products">
+            <div class="card" style="width:400px">
+                <img class="card-img-top" [src]="product.photo" [alt]="product.title">
+                <div class="card-body">
+                    <p class="h4 card-title ">
+                            {{product.title}}
+                    </p>
+                    <p class="card-text">
+                        {{product.price}} EGP
+                    </p>
+                    <p class="card-text">
+                        {{product.Duration}} Days
+                    </p>
+                    
+                    <button class="btn btn-primary">More...</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

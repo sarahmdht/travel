@@ -1,0 +1,52 @@
+{
+  "products": [
+  {
+      "id": 1,
+      "title": "End of Year Vacation",
+      "price": 100,
+      "Duration": 10,
+      "discount": 10,
+      "photo": "../assets/products/snowflake.avif"
+    },
+    {
+      "id": 2,
+      "title": "Family Vacation",
+      "price": 100,
+      "Duration": 5,
+      "discount": 10,
+      "photo": "../assets/products/italy.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Economy",
+      "price": 100,
+      "Duration": 5,
+      "discount": 10,
+      "photo": "../assets/products/beach.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Star Gazing",
+      "price": 100,
+      "Duration": 10,
+      "discount": 10,
+      "photo": "../assets/products/bora.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Vagabonding",
+      "price": 100,
+      "Duration": 15,
+      "discount": 10,
+      "photo": "../assets/products/beach.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Colorful",
+      "price": 100,
+      "Duration": 10,
+      "discount": 10,
+      "photo": "../assets/products/italy.jpg"
+    }
+  ]
+}
